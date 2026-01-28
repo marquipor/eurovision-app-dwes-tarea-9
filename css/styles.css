@@ -1,0 +1,127 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f4f7f6;
+    min-height: 100vh;
+    display:flex;
+    flex-direction: column;
+    margin: 0;
+}
+h1,h2 {
+    text-align: center; 
+    color: #333; 
+}
+
+.container{
+    flex:1;
+    width:100%;
+    max-width:1200px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+header{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.festival-logo{ 
+    margin-top: 10px;
+    max-width: 350px; 
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.year-summary-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    border-left: 5px solid cadetblue;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center; 
+}
+
+ul li {
+    background: #eef2f1;
+    padding: 5px 12px;
+    border-radius: 15px;
+    font-size: 0.85em;
+    color: #555;
+}
+
+.grid-contestants{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    border-top: 3px solid #f4f7f6;
+}
+
+.card-contestant{
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: transform 0.3s;
+}
+.card-contestant:hover{
+    transform:translateY(-5px);
+}
+
+.song {
+    font-style: italic;
+    color: #666;
+    margin: 5px 0;
+}
+
+.btn-detail, .btn-volver {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: cadetblue;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+    font-size: 0.9em;
+}
+
+.btn-detail:hover, .btn-volver:hover {
+    background-color: #4b8082;
+}
+
+.video-container {
+    width: 100%;
+    max-width: 900px; 
+    margin: 20px auto;
+    aspect-ratio: 16 / 9; 
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    width: 100%;
+    height: 100%;
+}
+
+footer{
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    margin-top: auto;
+}
+
+
+
