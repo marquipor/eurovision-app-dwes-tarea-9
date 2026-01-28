@@ -1,4 +1,4 @@
-# 🎤 Eurovision Song Contest - Buscador de Candidatos
+# 🎤 Eurovision Song Contest - Buscador de Festivlal
 
 Aplicación  desarrollada en PHP que consume la Eurovision API para consultar información detallada sobre los festivales y sus participantes. Este proyecto se inicia como la Tarea 9 de DWES, pero seguiré ampliándolo en un futuro próximo.
 
